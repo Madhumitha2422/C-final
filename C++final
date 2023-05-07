@@ -1,0 +1,54 @@
+/*Weather App
+Name:Madhumitha M
+College: Vivekanandha College of Engineering for Women
+
+STATEMENTS USED
+IF-ELSE
+
+
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string email,location,day;
+    cout<<"Enter email: ";
+    cin>>email;
+    cout<<endl<<"Enter location: ";
+    cin>>location;
+    cout<<endl<<"Enter day: ";
+    cin>>day;
+if(day=="today")
+{
+  cout<<"Temperature is 34.5"<<endl;
+  cout<<"Humidity is 16.8"<<endl;
+  cout<<"IT IS SUNNY"<<endl;
+}
+else if(day=="yesterday")
+{
+  cout<<"Temperature is 20.5"<<endl;
+  cout<<"Humidity is 63.8"<<endl;
+  cout<<"IT IS RAINY"<<endl;  
+    
+}
+else if(day=="tomorrow")
+{
+ cout<<"Temperature is 28.5"<<endl;
+  cout<<"Humidity is 43.9.8"<<endl;
+  cout<<"IT IS CLOUDY"<<endl;    
+    
+}
+else if(day=="week")
+{
+  cout<<"Temperature is 27.68"<<endl;
+  cout<<"Humidity is 57.34"<<endl;
+  cout<<"IT IS CLOUDY"<<endl;  
+}
+else
+{ 
+cout<<"invalid input"<<endl;
+}
+}
